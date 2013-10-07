@@ -80,7 +80,7 @@
 		p:port="465" p:username="kennyrodas" p:password="*********" -->
 	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl"
 		p:host="mail.gidmide.com" p:port="8025" p:username="buxrlfcc"
-		p:password="v6Dl1J0mw4">
+		p:password="*********">
 		<property name="javaMailProperties">
 			<props>
 				<prop key="mail.transport.protocol">smtp</prop>
